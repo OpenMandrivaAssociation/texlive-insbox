@@ -1,3 +1,9 @@
+# revision 17694
+# category Package
+# catalog-ctan /macros/generic/insbox
+# catalog-date 2007-01-07 15:47:33 +0100
+# catalog-license pd
+# catalog-version 2.2
 Name:		texlive-insbox
 Version:	2.2
 Release:	1
@@ -38,6 +44,7 @@ TeXLive insbox package.
 %doc %{_texmfdistdir}/doc/generic/insbox/demo.tex
 %doc %{_texmfdistdir}/doc/generic/insbox/pic1.eps
 %doc %{_texmfdistdir}/doc/generic/insbox/pic2.eps
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -48,3 +55,5 @@ TeXLive insbox package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
