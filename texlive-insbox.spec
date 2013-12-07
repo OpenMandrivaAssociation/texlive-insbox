@@ -6,7 +6,7 @@
 # catalog-version 2.2
 Name:		texlive-insbox
 Version:	2.2
-Release:	3
+Release:	4
 Summary:	A TeX macro for inserting pictures/boxes into paragraphs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/insbox
