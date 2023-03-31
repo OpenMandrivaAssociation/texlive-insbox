@@ -1,6 +1,6 @@
 Name:		texlive-insbox
 Version:	34299
-Release:	1
+Release:	2
 Summary:	A TeX macro for inserting pictures/boxes into paragraphs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/insbox
